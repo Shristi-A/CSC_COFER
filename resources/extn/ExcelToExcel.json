@@ -1,0 +1,19 @@
+{
+  "source": {
+    "type": "excel",
+    "file": "FY24Reports_All/${fileName}",
+    "sheet": "${sheetName}",
+    "date_coercion": false,
+    "date_format": "mm-dd-yyyy",
+    "datetime_format": "mm-dd-yyyy hh:mm:ss"
+  },
+  "destination": {
+    "type": "excel",
+    "file": "FY24Reports_All/CombinedFile",
+    "sheet": "AllReqnno",
+    "mode" : "a",
+    "date_coercion": false,
+    "date_format": "mm-dd-yyyy",
+    "datetime_format": "mm-dd-yyyy hh:mm:ss"
+  }
+}

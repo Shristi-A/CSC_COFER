@@ -1,0 +1,81 @@
+{
+  "date_coercion": false,
+  "googleSheetConfig": {
+    "fileMimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "cred": "auth/gsa.gov_api-project-673153394971-d38e0ee051e1.json",
+    "masterConferFileFromCognosSourceFolder": "1AERZOpFaC0Agy1nxGrSl69uapr56dnZU",
+    "masterConferReportFileName": "Master COFER Report-${today}.xlsx",
+    "destinationFolder": "./MasterCOFERFromCognos/"
+  },
+  "vendorConfig": {
+   "VendorFilePath": "D://Shared drives//",
+    "VendorFilePrefix": "GSA"
+  },
+"AllVendors":[
+            { "vendorName": "ARIZONA INDUSTRIES FOR THE BLIND",
+            "googleFolder": "COFER-AIB",
+            "process": true
+            },
+            { "vendorName": "ALPHAPOINTE",
+            "googleFolder": "COFER-ALPHAPOINTE",
+            "process": true
+            },
+            { "vendorName": "BLIND INDUSTRIES AND SERVICES OF MARYLAND",
+            "googleFolder": "COFER-BISM",
+            "process": true
+            },
+            { "vendorName": "BLIND AND VISION IMPAIRED, VIRGINIA DEPARTMENT FOR THE",
+            "googleFolder": "COFER-VIB",
+            "process": true
+            },
+            { "vendorName": "ENVISION XPRESS, INC.",
+            "googleFolder": "COFER-ENVISION",
+            "process": true
+            },
+            { "vendorName": "L C INDUSTRIES INC.",
+            "googleFolder": "COFER-LCI",
+            "process": true
+            },
+            { "vendorName": "LIGHTHOUSE FOR THE BLIND, INCORPORATED, THE",
+            "googleFolder": "COFER-LHB",
+            "process": true
+            },
+            { "vendorName": "MSC INDUSTRIAL DIRECT CO., INC.",
+            "googleFolder": "COFER-MSC",
+            "process": true
+            },
+            { "vendorName": "OFFICE DEPOT INC.",
+            "googleFolder": "COFER-OFFICE DEPOT",
+            "process": true
+            },
+            { "vendorName": "OSC SOLUTIONS, INC.",
+            "googleFolder": "COFER-OSC",
+            "process": true
+            },
+            { "vendorName": "W. W. GRAINGER, INC.",
+            "googleFolder": "COFER-GRAINGER",
+            "process": true
+            },
+            { "vendorName": "WINSTON-SALEM INDUSTRIES FOR THE BLIND, INC.",
+            "googleFolder": "COFER-IFB",
+            "process": true
+            }
+           ],
+  "NotifyCSC": {
+    "process": true,
+    "to":"jada.kelley@gsa.gov",
+    "cc": "jada.kelley@gsa.gov,shristi.amatya@gsa.gov",
+    "from_replyTo": "jada.kelley@gsa.gov",
+    "subject":"test!! Master COFER",
+    "emailbody": ".//resources//extn//cscEmail.html"
+  },
+  "NotifyVendor": {
+    "process": true,
+    "from_replyTo": "jada.kelley@gsa.gov",
+    "to": "jada.kelley@gsa.gov",
+    "cc": "jada.kelley@gsa.gov,vanessa.winter@gsa.gov,tyler.mccarthy@gsa.gov,shristi.amatya@gsa.gov",
+    "bcc": "",
+    "subject":"test!! COFER Updates",
+    "emailbody": ".//resources//extn//vendorsEmail.html"
+  }
+}
