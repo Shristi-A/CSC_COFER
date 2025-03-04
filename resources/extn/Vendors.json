@@ -3,79 +3,79 @@
   "googleSheetConfig": {
     "fileMimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     "cred": "auth/gsa.gov_api-project-673153394971-d38e0ee051e1.json",
-    "masterConferFileFromCognosSourceFolder": "1AERZOpFaC0Agy1nxGrSl69uapr56dnZU",
-    "masterConferReportFileName": "Master COFER Report-${today}.xlsx",
+    "cognosCOFERSourceFolder": "1AERZOpFaC0Agy1nxGrSl69uapr56dnZU",
+    "cognosCOFERFileName": "Master COFER Report-${today}.xlsx",
     "destinationFolder": "./MasterCOFERFromCognos/"
   },
   "vendorConfig": {
-   "VendorFilePath": "D://Shared drives//",
+   "vendorSharedDirectory": "G://Shared drives//",
     "VendorFilePrefix": "GSA"
   },
 "AllVendors":[
-            { "vendorName": "ARIZONA INDUSTRIES FOR THE BLIND",
-            "googleFolder": "COFER-AIB",
+            { "vendorFileName": "ARIZONA INDUSTRIES FOR THE BLIND",
+            "vendorName": "AIB",
             "process": true
             },
-            { "vendorName": "ALPHAPOINTE",
-            "googleFolder": "COFER-ALPHAPOINTE",
+            { "vendorFileName": "ALPHAPOINTE",
+            "vendorName": "ALPHAPOINTE",
             "process": true
             },
-            { "vendorName": "BLIND INDUSTRIES AND SERVICES OF MARYLAND",
-            "googleFolder": "COFER-BISM",
+            { "vendorFileName": "BLIND INDUSTRIES AND SERVICES OF MARYLAND",
+            "vendorName": "BISM",
             "process": true
             },
-            { "vendorName": "BLIND AND VISION IMPAIRED, VIRGINIA DEPARTMENT FOR THE",
-            "googleFolder": "COFER-VIB",
+            { "vendorFileName": "BLIND AND VISION IMPAIRED, VIRGINIA DEPARTMENT FOR THE",
+            "vendorName": "VIB",
             "process": true
             },
-            { "vendorName": "ENVISION XPRESS, INC.",
-            "googleFolder": "COFER-ENVISION",
+            { "vendorFileName": "ENVISION XPRESS, INC.",
+            "vendorName": "ENVISION",
             "process": true
             },
-            { "vendorName": "L C INDUSTRIES INC.",
-            "googleFolder": "COFER-LCI",
+            { "vendorFileName": "L C INDUSTRIES INC.",
+            "vendorName": "LCI",
             "process": true
             },
-            { "vendorName": "LIGHTHOUSE FOR THE BLIND, INCORPORATED, THE",
-            "googleFolder": "COFER-LHB",
+            { "vendorFileName": "LIGHTHOUSE FOR THE BLIND, INCORPORATED, THE",
+            "vendorName": "LHB",
             "process": true
             },
-            { "vendorName": "MSC INDUSTRIAL DIRECT CO., INC.",
-            "googleFolder": "COFER-MSC",
+            { "vendorFileName": "MSC INDUSTRIAL DIRECT CO., INC.",
+            "vendorName": "MSC",
             "process": true
             },
-            { "vendorName": "OFFICE DEPOT INC.",
-            "googleFolder": "COFER-OFFICE DEPOT",
+            { "vendorFileName": "OSC SOLUTIONS, INC.",
+            "vendorName": "OSC",
             "process": true
             },
-            { "vendorName": "OSC SOLUTIONS, INC.",
-            "googleFolder": "COFER-OSC",
+            { "vendorFileName": "W. W. GRAINGER, INC.",
+            "vendorName": "GRAINGER",
             "process": true
             },
-            { "vendorName": "W. W. GRAINGER, INC.",
-            "googleFolder": "COFER-GRAINGER",
-            "process": true
-            },
-            { "vendorName": "WINSTON-SALEM INDUSTRIES FOR THE BLIND, INC.",
-            "googleFolder": "COFER-IFB",
+            { "vendorFileName": "WINSTON-SALEM INDUSTRIES FOR THE BLIND, INC.",
+            "vendorName": "IFB",
             "process": true
             }
            ],
   "NotifyCSC": {
     "process": true,
     "to":"jada.kelley@gsa.gov",
-    "cc": "jada.kelley@gsa.gov,shristi.amatya@gsa.gov",
+    "cc": "christopher.craig@gsa.gov,kathy.taylor@gsa.gov,michael.lord@gsa.gov,will.rayam@gsa.gov,joey.gonzales@gsa.gov,amber.park@gsa.gov,vanessa.winter@gsa.gov,tyler.mccarthy@gsa.gov,josephe.brown@gsa.gov,teresa.stevens@gsa.gov,david.stone@gsa.gov,roxanne.degner@gsa.gov,keesha.brady@gsa.gov,patricia.soares@gsa.gov,roxana.bannamon@gsa.gov,carmen.figueroa@gsa.gov,dayne.tsunezumi@gsa.gov,donald.anakalea@gsa.gov,lenny.rodriguez@gsa.gov,brad.vetting@gsa.gov,jada.kelley@gsa.gov,katelyn.young@gsa.gov,shristi.amatya@gsa.gov,andy.harris@gsa.gov",
     "from_replyTo": "jada.kelley@gsa.gov",
-    "subject":"test!! Master COFER",
+    "bcc": "",
+    "subject":"Master COFER",
     "emailbody": ".//resources//extn//cscEmail.html"
   },
   "NotifyVendor": {
     "process": true,
     "from_replyTo": "jada.kelley@gsa.gov",
     "to": "jada.kelley@gsa.gov",
-    "cc": "jada.kelley@gsa.gov,vanessa.winter@gsa.gov,tyler.mccarthy@gsa.gov,shristi.amatya@gsa.gov",
-    "bcc": "",
-    "subject":"test!! COFER Updates",
+    "cc": "kathy.taylor@gsa.gov,christopher.craig@gsa.gov,vanessa.winter@gsa.gov,randolph.button@gsa.gov,brad.vetting@gsa.gov,will.rayam@gsa.gov,michael.lord@gsa.gov,joey.gonzales@gsa.gov,tyler.mccarthy@gsa.gov,roxanne.degner@gsa.gov,keesha.brady@gsa.gov,jada.kelley@gsa.gov,katelyn.young@gsa.gov",
+    "bcc": "myoung@alphapointe.org,swright@alphapointe.org,lcranfill@ifbsolutions.org,farmerr@mscdirect.com,don.short@oscmro.com,thammett@bism.org,ssavage@bism.org,SNicolaus@lhblind.org,Justin.Morgan@envisionus.com,Daniel.Molina@envisionus.com,Rich.Moon@envisionus.com,tim.brock@envisionus.com,Manzie.Winters@grainger.com,Teri.Armentrout@grainger.com,Dina.Soto@grainger.com,brian.severs@grainger.com,Jessica.Kennedy@grainger.com,Maria.Vital@grainger.com,lisa.lescallett@grainger.com,Michael.Alden@grainger.com,roy.Guerrero@grainger.com,Ena.Fowler@grainger.com,Codi.Waitman@grainger.com,Matthew.Micalizzi@grainger.com,Anthony.Garnica@grainger.com,Raymonde.Santos-Muna@grainger.com,suzanna.castillo@grainger.com,kevin.beck@lc-ind.com,michael.anesh@lcibsc.com,jasmin.settles@gsa.gov,Jeff.Gallman@lc-ind.com,azavala@azifb.com,ALange@azifb.com,TFerguson@azifb.com,erin.ragland@dbvi.virginia.gov,andrew.hamilton@vibonline.org,Gsa.vedaspelta@gmail.com,Steven.Truscello@lcibsc.com,zmamakas@azifb.com,Caitlin.Piette@grainger.com,Chandler.Croney@grainger.com,eshaw@lhblind.org,justin.ditucci@oscmro.com,hillto@mscdirect.com,ankneye@mscdirect.com,wyokley@ifbsolutions.org,Nour.fouad@oscweb.com,becky.spurlin@oscweb.com,Alyssa.Wilkins@grainger.com,Thomas.1.Olson@grainger.com,ANTOINE.SUBER@grainger.com,Jennifer.Bruno-Ibarra@grainger.com,James.Stockwell@mscdirect.com,pash@lhblind.org,gsa.peterash@gmail.com,GSA.jhuannamendoza@gmail.com,JFMendoza@lhblind.org,dheller@lhblind.org,gsa.ianguedry@gmail.com,CMartinez@lhblind.org,gsa.cindymartinez@gmail.com,Martin.Galvez@grainger.com,diana.chappell@vibonline.org,JGibbs@lhblind.org,charper@ifbsolutions.org,shristi.amatya@gsa.gov",
+    "subject":"COFER Updates",
     "emailbody": ".//resources//extn//vendorsEmail.html"
+  },
+  "UploadMasterCOFERFile": {
+    "roGoogleDrivePath": "G://.shortcut-targets-by-id//1OMAL8Vfe_WfZF1R2VzlFhNA7gnqMAjHc//MASTER COFER Files//FY25"
   }
 }

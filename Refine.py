@@ -68,7 +68,6 @@ def refineDF (mainDF):
 
         finalMainDF=finalMainDF.drop(['Comments','Response'],axis=1)
         finalMainDF.rename(columns={'NewWeekComment':'Comments'}, inplace=True)
-        finalMainDF['Response'] = ""
         print(finalMainDF)
         return finalMainDF
     except :

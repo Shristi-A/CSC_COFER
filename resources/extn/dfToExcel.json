@@ -6,7 +6,7 @@
   "destination": {
     "type" : "excel",
     "file": "${fileName}",
-    "sheet": "${operation}",
+    "sheet": "${tab}",
     "mode" : "a",
     "header":true,
 	"date_format": "mm-dd-yyyy",
